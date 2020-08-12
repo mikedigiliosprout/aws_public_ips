@@ -17,6 +17,7 @@ require 'aws_public_ips/version'
   gem.bindir      = 'bin'
   gem.executables = 'aws_public_ips'
 
+  gem.add_dependency('aws-sdk-natgateway', '~> 1.21.0')
   gem.add_dependency('aws-sdk-apigateway', '~> 1.21.0')
   gem.add_dependency('aws-sdk-cloudfront', '~> 1.10.0')
   gem.add_dependency('aws-sdk-ec2', '~> 1.54.0')
