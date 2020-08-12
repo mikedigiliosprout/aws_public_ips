@@ -1,3 +1,6 @@
+### 1.0.8 (08/12/2020)
+* Attempt to pull NAT Gateway IPs
+
 ### 1.0.7 (11/7/2019)
 * Find all addresses when an EC2 instance has multiple ([@breser](https://github.com/breser))
 * Add Docker support
